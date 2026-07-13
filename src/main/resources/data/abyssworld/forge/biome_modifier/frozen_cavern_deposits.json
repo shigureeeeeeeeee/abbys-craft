@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "abyssworld:frozen_cavern",
+  "features": "abyssworld:frozen_cluster_deposit",
+  "step": "underground_ores"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "abyssworld:forgotten_forest",
+  "features": "abyssworld:primordial_bloom_deposit",
+  "step": "underground_ores"
+}

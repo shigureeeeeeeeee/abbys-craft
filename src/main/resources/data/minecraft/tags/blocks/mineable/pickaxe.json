@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "abyssworld:abyss_iron_ore",
+    "abyssworld:abyss_crystal_ore",
+    "abyssworld:abyss_iron_block",
+    "abyssworld:world_reconstruction_furnace",
+    "abyssworld:primordial_bloom",
+    "abyssworld:ash_vein",
+    "abyssworld:frozen_cluster",
+    "abyssworld:flesh_deposit",
+    "abyssworld:void_crystal"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": { "item": "abyssworld:abyss_iron_ingot" },
+    "title": { "translate": "advancements.abyssworld.root.title" },
+    "description": { "translate": "advancements.abyssworld.root.description" },
+    "background": "minecraft:textures/block/deepslate.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_abyss_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "abyssworld:raw_abyss_iron", "abyssworld:abyss_iron_ingot" ] } ] }
+    }
+  }
+}

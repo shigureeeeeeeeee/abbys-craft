@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "abyssworld:primordial_sap" },
+    { "item": "minecraft:vine" }
+  ],
+  "result": { "item": "abyssworld:awakened_vine", "count": 2 }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["SAS", "AWA", "SAS"],
+  "key": {
+    "S": { "item": "abyssworld:spatial_anchor_crystal" },
+    "A": { "item": "abyssworld:high_density_abyss_alloy" },
+    "W": { "item": "abyssworld:world_law_fragment" }
+  },
+  "result": { "item": "abyssworld:void_stabilizer" }
+}

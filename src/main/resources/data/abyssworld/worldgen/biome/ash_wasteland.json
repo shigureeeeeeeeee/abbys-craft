@@ -1,0 +1,35 @@
+{
+  "has_precipitation": false,
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 4864815,
+    "sky_color": 3936298,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 5462586,
+    "foliage_color": 5462586,
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    }
+  },
+  "carvers": { "air": ["minecraft:cave", "minecraft:canyon"] },
+  "features": [
+    [], [], [], [], [], [],
+    ["abyssworld:abyss_iron_ore", "abyssworld:abyss_crystal_ore"],
+    [], [],
+    ["minecraft:patch_dead_bush"],
+    []
+  ],
+  "spawners": {
+    "monster": [
+      { "type": "minecraft:husk", "weight": 80, "minCount": 2, "maxCount": 4 },
+      { "type": "minecraft:magma_cube", "weight": 40, "minCount": 1, "maxCount": 3 },
+      { "type": "minecraft:blaze", "weight": 15, "minCount": 1, "maxCount": 2 }
+    ]
+  },
+  "spawn_costs": {}
+}

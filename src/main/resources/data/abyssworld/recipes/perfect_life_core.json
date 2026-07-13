@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["SSS", "SCS", "SSS"],
+  "key": {
+    "S": { "item": "abyssworld:primordial_sap" },
+    "C": { "item": "abyssworld:abyss_crystal" }
+  },
+  "result": { "item": "abyssworld:perfect_life_core" }
+}

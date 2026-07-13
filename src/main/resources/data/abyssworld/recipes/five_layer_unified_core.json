@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["RFI", "AXA", "NVA"],
+  "key": {
+    "R": { "item": "abyssworld:rotten_forest_core" },
+    "F": { "item": "abyssworld:eternal_furnace_core" },
+    "I": { "item": "abyssworld:permafrost_core" },
+    "N": { "item": "abyssworld:primordial_nerve_bundle" },
+    "V": { "item": "abyssworld:void_stabilizer" },
+    "X": { "item": "abyssworld:compressed_abyss_crystal" },
+    "A": { "item": "abyssworld:high_density_abyss_alloy" }
+  },
+  "result": { "item": "abyssworld:five_layer_unified_core" }
+}

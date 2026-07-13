@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["NNN", "NFN", "NNN"],
+  "key": {
+    "N": { "item": "abyssworld:primordial_nerve" },
+    "F": { "item": "abyssworld:world_pulse_fluid" }
+  },
+  "result": { "item": "abyssworld:undying_cell", "count": 2 }
+}

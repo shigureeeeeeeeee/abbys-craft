@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["VSV", "SCS", "VSV"],
+  "key": {
+    "V": { "item": "abyssworld:awakened_vine" },
+    "S": { "item": "abyssworld:primordial_sap" },
+    "C": { "item": "abyssworld:perfect_life_core" }
+  },
+  "result": { "item": "abyssworld:rotten_forest_core" }
+}

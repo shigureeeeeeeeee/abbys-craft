@@ -1,0 +1,36 @@
+{
+  "parent": "abyssworld:story/enter_abyss",
+  "display": {
+    "icon": { "item": "abyssworld:rotten_forest_core" },
+    "title": { "translate": "advancements.abyssworld.layer_core.title" },
+    "description": { "translate": "advancements.abyssworld.layer_core.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "forest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "abyssworld:rotten_forest_core" ] } ] }
+    },
+    "ash": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "abyssworld:eternal_furnace_core" ] } ] }
+    },
+    "ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "abyssworld:permafrost_core" ] } ] }
+    },
+    "flesh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "abyssworld:primordial_nerve_bundle" ] } ] }
+    },
+    "void": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "abyssworld:void_stabilizer" ] } ] }
+    }
+  },
+  "requirements": [
+    [ "forest", "ash", "ice", "flesh", "void" ]
+  ]
+}

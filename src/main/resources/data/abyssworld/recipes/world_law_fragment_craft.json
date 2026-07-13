@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["CCC", "CUC", "CCC"],
+  "key": {
+    "C": { "item": "abyssworld:spatial_anchor_crystal" },
+    "U": { "item": "abyssworld:high_density_abyss_alloy" }
+  },
+  "result": { "item": "abyssworld:world_law_fragment" }
+}

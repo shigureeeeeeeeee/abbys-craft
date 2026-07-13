@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["MFM", "FCF", "MFM"],
+  "key": {
+    "M": { "item": "abyssworld:ash_king_metal" },
+    "F": { "item": "abyssworld:eternal_flame" },
+    "C": { "item": "abyssworld:superheated_core" }
+  },
+  "result": { "item": "abyssworld:eternal_furnace_core" }
+}

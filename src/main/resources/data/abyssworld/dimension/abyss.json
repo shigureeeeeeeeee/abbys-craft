@@ -1,0 +1,47 @@
+{
+  "type": "abyssworld:abyss",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "abyssworld:abyss",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "abyssworld:forgotten_forest",
+          "parameters": {
+            "temperature": -1.0, "humidity": 0.0, "continentalness": 0.0,
+            "erosion": 0.0, "weirdness": 0.0, "depth": 0.0, "offset": 0.0
+          }
+        },
+        {
+          "biome": "abyssworld:frozen_cavern",
+          "parameters": {
+            "temperature": -0.5, "humidity": 0.0, "continentalness": 0.0,
+            "erosion": 0.0, "weirdness": 0.0, "depth": 0.0, "offset": 0.0
+          }
+        },
+        {
+          "biome": "abyssworld:flesh_mine",
+          "parameters": {
+            "temperature": 0.0, "humidity": 0.0, "continentalness": 0.0,
+            "erosion": 0.0, "weirdness": 0.0, "depth": 0.0, "offset": 0.0
+          }
+        },
+        {
+          "biome": "abyssworld:void_city",
+          "parameters": {
+            "temperature": 0.5, "humidity": 0.0, "continentalness": 0.0,
+            "erosion": 0.0, "weirdness": 0.0, "depth": 0.0, "offset": 0.0
+          }
+        },
+        {
+          "biome": "abyssworld:ash_wasteland",
+          "parameters": {
+            "temperature": 1.0, "humidity": 0.0, "continentalness": 0.0,
+            "erosion": 0.0, "weirdness": 0.0, "depth": 0.0, "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

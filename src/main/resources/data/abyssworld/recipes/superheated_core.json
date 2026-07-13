@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["FAF", "ACA", "FAF"],
+  "key": {
+    "F": { "item": "abyssworld:eternal_flame" },
+    "A": { "item": "abyssworld:ash_king_metal" },
+    "C": { "item": "abyssworld:abyss_iron_ingot" }
+  },
+  "result": { "item": "abyssworld:superheated_core" }
+}

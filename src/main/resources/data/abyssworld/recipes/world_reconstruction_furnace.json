@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AWA", "VNV", "AXA"],
+  "key": {
+    "A": { "item": "abyssworld:high_density_abyss_alloy" },
+    "W": { "item": "abyssworld:world_law_fragment" },
+    "V": { "item": "abyssworld:void_stabilizer" },
+    "N": { "item": "abyssworld:eternal_furnace_core" },
+    "X": { "item": "abyssworld:compressed_abyss_crystal" }
+  },
+  "result": { "item": "abyssworld:world_reconstruction_furnace" }
+}

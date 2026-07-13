@@ -1,0 +1,17 @@
+{
+  "parent": "abyssworld:story/god_core",
+  "display": {
+    "icon": { "item": "abyssworld:primordial_relic" },
+    "title": { "translate": "advancements.abyssworld.relic.title" },
+    "description": { "translate": "advancements.abyssworld.relic.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_relic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "abyssworld:primordial_relic" ] } ] }
+    }
+  }
+}

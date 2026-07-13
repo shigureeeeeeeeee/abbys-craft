@@ -1,0 +1,33 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.9,
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 4396048,
+    "sky_color": 3872288,
+    "water_color": 6754594,
+    "water_fog_color": 4530207,
+    "mood_sound": {
+      "sound": "minecraft:ambient.crimson_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    }
+  },
+  "carvers": { "air": ["minecraft:cave", "minecraft:canyon"] },
+  "features": [
+    [], [], [], [], [], [],
+    ["abyssworld:abyss_iron_ore", "abyssworld:abyss_crystal_ore"],
+    [], [],
+    ["minecraft:brown_mushroom_normal", "minecraft:red_mushroom_normal"],
+    []
+  ],
+  "spawners": {
+    "monster": [
+      { "type": "minecraft:zombie", "weight": 60, "minCount": 2, "maxCount": 4 },
+      { "type": "minecraft:zoglin", "weight": 30, "minCount": 1, "maxCount": 2 },
+      { "type": "minecraft:silverfish", "weight": 40, "minCount": 2, "maxCount": 4 }
+    ]
+  },
+  "spawn_costs": {}
+}

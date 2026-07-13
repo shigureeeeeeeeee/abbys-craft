@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "abyssworld:abyss_iron_ore",
+    "abyssworld:abyss_crystal_ore"
+  ],
+  "step": "underground_ores"
+}

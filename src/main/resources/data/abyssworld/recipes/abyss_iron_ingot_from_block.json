@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [ { "item": "abyssworld:abyss_iron_block" } ],
+  "result": { "item": "abyssworld:abyss_iron_ingot", "count": 9 }
+}

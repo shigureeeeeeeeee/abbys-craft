@@ -1,0 +1,17 @@
+{
+  "parent": "abyssworld:story/root",
+  "display": {
+    "icon": { "item": "abyssworld:abyss_key" },
+    "title": { "translate": "advancements.abyssworld.enter_abyss.title" },
+    "description": { "translate": "advancements.abyssworld.enter_abyss.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "entered_abyss": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": { "to": "abyssworld:abyss" }
+    }
+  }
+}
